@@ -1,6 +1,6 @@
 # Soup Corner
 
-Bot de Telegram para atendimento do delivery **Soup Corner / Cantinho do Caldo**. A assistente virtual **Anna** conduz o cliente do cardápio até o pedido finalizado: responde sobre pratos, preços, horário e pagamento, monta o pedido, valida o endereço de entrega, calcula a taxa pela distância e registra o pedido concluído em um painel HTML.
+Bot de Telegram para atendimento do delivery **Soup Corner**. A assistente virtual **Anna** conduz o cliente do cardápio até o pedido finalizado: responde sobre pratos, preços, horário e pagamento, monta o pedido, valida o endereço de entrega, calcula a taxa pela distância e registra o pedido concluído em um painel HTML.
 
 As respostas são geradas por um LLM rodando localmente no [Ollama](https://ollama.com), com RAG (*Retrieval-Augmented Generation*): o cardápio em PDF é indexado em um banco vetorial e os trechos relevantes são enviados ao modelo a cada mensagem. A distância de entrega é calculada pela [Google Routes API](https://developers.google.com/maps/documentation/routes).
 
